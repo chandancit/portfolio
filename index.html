@@ -17,6 +17,14 @@
         margin: 0;
         box-sizing: border-box;
     }
+        @media (max-width: 600px) {
+        [data-aos] {
+            /* Override AOS styles for small screens */
+            transition: none !important;
+            opacity: 1 !important;
+            transform: none !important;
+        }
+    }
 </style>
     <!-- navbar start -->
     <nav class="navbar navbarlight fixed-top bg-light shadow-lg" >
